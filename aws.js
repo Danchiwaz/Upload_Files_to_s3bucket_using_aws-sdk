@@ -36,6 +36,7 @@ const uploadFile = async (bucketName, key, filePath) => {
 
 (async () => {
     try {
+        // defining the required parameters required by the upload METHODS
         const bucketName = 'danicloud';
         const key = 'daniefromcode.txt';
         const filePath = './daniefromcode.txt';
